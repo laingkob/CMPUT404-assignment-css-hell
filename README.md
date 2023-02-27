@@ -20,6 +20,7 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
+=================
 
 Personal webpages licensed to Courtenay Laing-Kobe under Attribution-NonCommercial-NoDerivatives 4.0 International https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
