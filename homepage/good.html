@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Courtenay Laing-Kobe's Professional Webpage
+    </title>
+    <style>
+    /* General */
+    body {
+        background-color: #FBF8EF;
+        margin: 0;
+        font-family: sans-serif;
+        color: #232020;
+        box-sizing: border-box;
+    }
+    h1, h2, h3, h4{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-left: 20vw;
+        text-align: center;
+        flex:1;
+        color: #232020;
+    }
+    h4 {
+        font-weight: 100;
+    }
+    p {
+        margin-left: 30vw;
+        color: #232020;
+        padding-left: 1em;
+        max-width: 60vw;
+    }
+    
+/* Header */
+    .Title {
+        width: 100vw;
+        background-color: #310A31;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .Title h1 {
+        color: white;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .Title h2, .Title h3, .Title h4 {
+        color: #847996;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+/* Sidebar */
+    .Sidebar {
+        min-height: 100vh;
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        font-size: calc(10px + 2vmin);
+        margin: 0;
+        padding: 0;
+        background-color: #847996;
+        position: fixed;
+    }
+    .Sidebar ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
+        margin-top: 16vh;
+    }
+    .Sidebar li {
+        flex-grow: 1;
+        display: block;
+        margin: 0;
+        padding: 1em;
+        color: white;
+    }
+
+/* Photo & Icons */
+    .corner-group {
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        margin: 2vw;
+    }
+    img.selfie {
+        object-fit: cover;
+        object-position: left top;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 1.5em;
+        z-index: 2;
+    }
+    .icon{
+        height: 3em;
+        border-style: none;
+        background-color: transparent;
+    }
+    div.social-media {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: calc(2vw + 1.5em);
+        max-width: fit-content;
+        z-index: 3;
+    }
+
+/* Skill Bubbles */
+    .skill-group {
+        display: flex;
+        margin-left: 30vw;
+        align-items: center;
+        max-width: 60vw;
+        flex-wrap: wrap;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+    }
+    .skill-group :nth-child(3n+1) {
+        background-color: #73AB82;
+    }
+    .skill-group :nth-child(3n-1) {
+        background-color: #847996;
+    }
+    .skill-group :nth-child(3n) {
+        background-color: #73ABA8;
+    }
+    .skill-group div {
+        flex-grow: 1;
+        min-width: fit-content;
+        padding: 1em;
+        margin: 0.5em;
+        border-radius: 1em;  
+    }
+
+    /* License */
+    p.license {
+        text-align: center;
+    }
+    </style>
+    <head>
+        <link rel="stylesheet" href="./good.css">
+    </head>
+    <!--Social media icons from : -->
+    <!-- https://www.iconfinder.com/icons/3225191/app_instagram_logo_media_popular_social_icon -->
+    <!-- https://www.iconfinder.com/icons/3225190/app_linkedin_logo_media_popular_social_icon -->
+    <!-- Both free for commercial use -->
+    <body>
+        <div class="corner-group">
+            <img class="selfie" alt="Photo of Courtenay" src="./personal-images/profile-photo.jpg">
+            <div class="social-media">
+                <button class="icon" onclick="location.href='https://www.instagram.com/internet_spider/';">
+                    <img class="icon" alt="Instagram" src="./personal-images/ig_icon.png">
+                </button>
+                <button class="icon" onclick="location.href='https://www.linkedin.com/in/courtenay-laing-kobe-88270275/';">
+                    <img class="icon" alt="LinkedIn" src="./personal-images/linkedin_icon.png">
+                </button>
+            </div>
+        </div>
+        <div class="Title">  
+            <h1>Courtenay Laing-Kobe</h1>
+            <h3>BSc Computer Science Specialization</h3>
+            <h4>Expected Graduation 2023, University of Alberta</h4>
+        </div>
+        <div class="Sidebar">
+            <ul>
+                <li>Ambitious</li>
+                <li>Creative</li>
+                <li>Curious</li>
+                <li>Flexible</li>
+                <li>Perceptive</li>
+            </ul>
+        </div>
+        <h2>About</h2>
+            <p>As a girl with a big heart and bigger dreams, I'm excited to take on the tech sector.
+                When I'm not at my computer, you might find me sketching out design ideas, tending 
+                my plants, teaching my cat a new trick, or diving headfirst into a new game. I love 
+                a challenge, whether that be a recipe, a new coding language, or taking something apart
+                to figure out how it works.
+            </p>
+        <h2>Experience</h2>
+            <p>I've built all kinds of projects in school on a bunch of platforms, in addition to
+                working multiple positions in restaurants and retail. My most prized projects are a 
+                social media Android app for tracking habits and a fast-paced card-throwdown game 
+                that won us the "Amazingly Fun to Play and Immediately Want to Play Again" award. 
+                Merchandising and plating food has been a great whetstone for my design eye, and 
+                my constant exposure to customers has taught me to see things from new perspectives 
+                and interpret feedback constructively. 
+            </p>
+        <h2>Skills</h2>
+        <div class="skill-group">
+            <div>Collaboration</div>
+            <div>Communication</div>
+            <div>Empathy</div>
+            <div>Crtical Thinking</div>
+            <div>Software Development</div>
+            <div>Testing</div>
+            <div>Research</div>
+            <div>Game Design</div>
+            <div>Web Design</div>
+            <div>Python</div>
+            <div>C / C++</div>
+            <div>HTML / React / Javascript</div>
+            <div>Java</div>
+            <div>Julia / MatLab</div>
+            <div>SQL</div>
+            <div>MongoDB</div>
+            <div>Firebase</div>
+        </div>
+        <br/>
+        <!--License Info-->
+        <p class="license">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+            <br />This work is licensed to Courtenay Laing-Kobe under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+        </p>
+    </body>
+</html>
